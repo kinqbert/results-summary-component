@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="app">
+        <section class="result">
+          <h3 class="result__header">Your Result</h3>
+          <div class="circle">
+            <h1 class="circle__value">76</h1>
+            <p class="circle__description">of 100</p>
+          </div>
+          <h2 class="result__heading">Great</h2>
+          <p class="result__description">
+            Your performance exceed 65% of the people conducting the test here!
+          </p>
+        </section>
+        <section class="stats">
+          <h3 class="stats__header">Summary</h3>
+          <ul class="stats__info">
+            <li class="stats-item stats-item--red">
+              <div class="stats-item__left">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="Reaction icon"
+                  class="stats-item__icon"
+                />
+                <p class="stats-item__text stats-item__text--red">Reaction</p>
+              </div>
+              <div class="stats-item__right">
+                <span class="stats-item__value">80</span>
+                <span class="stats-item__from">/ 100</span>
+              </div>
+            </li>
+
+            <li class="stats-item stats-item--yellow">
+              <div class="stats-item__left">
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt="Reaction icon"
+                  class="stats-item__icon"
+                />
+                <p class="stats-item__text stats-item__text--yellow">Memory</p>
+              </div>
+              <div class="stats-item__right">
+                <span class="stats-item__value">92</span>
+                <span class="stats-item__from">/ 100</span>
+              </div>
+            </li>
+
+            <li class="stats-item stats-item--green">
+              <div class="stats-item__left">
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt="Reaction icon"
+                  class="stats-item__icon"
+                />
+                <p class="stats-item__text stats-item__text--green">Verbal</p>
+              </div>
+              <div class="stats-item__right">
+                <span class="stats-item__value">61</span>
+                <span class="stats-item__from">/ 100</span>
+              </div>
+            </li>
+
+            <li class="stats-item stats-item--blue">
+              <div class="stats-item__left">
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="Reaction icon"
+                  class="stats-item__icon"
+                />
+                <p class="stats-item__text stats-item__text--blue">Visual</p>
+              </div>
+              <div class="stats-item__right">
+                <span class="stats-item__value">73</span>
+                <span class="stats-item__from">/ 100</span>
+              </div>
+            </li>
+          </ul>
+          <button class="stats__button">
+            Continue
+          </button>
+        </section>
+      </div>
+    </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kinqbert</a>.
+  </div> -->
+  </body>
+</html>

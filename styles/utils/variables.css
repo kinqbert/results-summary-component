@@ -1,0 +1,25 @@
+:root {
+  /* primary colors */
+  --color__light-red: hsl(0, 100%, 67%);
+  --color__orange-yellow: hsl(39, 100%, 56%);
+  --color__green-teal: hsl(166, 100%, 37%);
+  --color__cobalt-blue: hsl(234, 85%, 45%);
+
+  /* stats background colors */
+  --color__light-red--5: hsla(0, 100%, 67%, 0.05);
+  --color__orange-yellow--5: hsla(39, 100%, 56%, 0.05);
+  --color__green-teal--5: hsla(166, 100%, 37%, 0.05);
+  --color__cobalt-blue--5: hsla(234, 85%, 45%, 0.05);
+
+  /* neutral colors */
+  --color__white: hsl(0, 0%, 100%);
+  --color__pale-blue: hsl(221, 100%, 96%);
+  --color__light-lavender: hsl(241, 100%, 89%);
+  --color__dark-gray-blue: hsl(224, 30%, 27%);
+
+  /* gradients */
+  --gradient__background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  --gradient__circle: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  --gradient__button: linear-gradient(180deg, hsl(224, 30%, 27%), hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+  --gradient__button-hover: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+}

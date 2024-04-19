@@ -1,0 +1,53 @@
+@import url("./utils/variables.css");
+@import url("./utils/fonts.css");
+@import url("./utils/reset.css");
+
+@import url("./blocks/circle.css");
+@import url("./blocks/result.css");
+@import url("./blocks/stats.css");
+@import url("./blocks/stats-item.css");
+
+body {
+  font-family: "Hanken Grotesk";
+
+  background-color: var(--color__pale-blue);
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color__white);
+  
+  @media (max-width: 768px) {
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+.app {
+  width: 736px;
+  height: 512px;
+
+  display: flex;
+
+  border-radius: 32px;
+
+  box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+
+    flex-direction: column;
+
+    border-radius: 0;
+
+    box-shadow: none;
+  }
+}
+
+
